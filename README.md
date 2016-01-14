@@ -40,6 +40,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Libraries and tools for package and dependency management.*
 
 * [hex.pm](https://hex.pm/) - Packmage for the Erlang ecosystem.
+* [agner](https://github.com/agner/agner) - Erlang package manager (A Giant Nebula of Erlang Repositories)
 
 ## Release Management
 *Libraries and tools for release management.*
@@ -70,11 +71,13 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 * [bullet](https://github.com/extend/bullet) - Simple, reliable, efficient streaming for Cowboy.
 * [lhttpc](https://github.com/esl/lhttpc) - A lightweight HTTP/1.1 client implemented in Erlang.
 * [hackney](https://github.com/benoitc/hackney) - An HTTP client library for Erlang.
+* [gun](https://github.com/extend/gun) - Asynchronous SPDY, HTTP and Websocket client written in Erlang.
 
 ## Testing
 *Libraries for testing codebases and generating test data.*
 
 * [PropEr](https://github.com/manopapad/proper) - A QuickCheck-inspired property-based testing tool for Erlang.
+* [tracerl](https://github.com/esl/tracerl) - Dynamic tracing tests and utilities for Erlang/OTP
 
 ## Logging
 *Libraries for generating and working with log files.*
@@ -100,6 +103,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Libraries and tools for analysing, parsing and manipulation codebases.*
 
 * [eflame](https://github.com/proger/eflame) - A Flame Graph profiler for Erlang.
+* [Concuerror](https://github.com/parapluu/Concuerror) - Concuerror is a systematic testing tool for concurrent Erlang programs http://concuerror.com
 
 ## Build Tools
 *Project build and automation tools.*
@@ -131,6 +135,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 
 * [boss_db](https://github.com/ChicagoBoss/boss_db) - A sharded, caching, pooling, evented ORM for Erlang.
 * [pgsql_migration](https://github.com/artemeff/pgsql_migration) – PostgreSQL migrations for Erlang.
+* [mysql-otp](https://github.com/mysql-otp/mysql-otp) - MySQL/OTP – MySQL driver for Erlang/OTP.
 
 ## Queue
 *Libraries for working with event and task queues.*
@@ -146,8 +151,11 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Libraries for parsing and manipulating text and numbers.*
 
 * [eql](https://github.com/artemeff/eql) - library for using SQL.
-* [jsx](https://github.com/talentdeficit/jsx) - an erlang application for consuming, producing and manipulating json.
 * [qsp](https://github.com/artemeff/qsp) - Enhanced query string parser for Erlang.
+* [jsx](https://github.com/talentdeficit/jsx) - An erlang application for consuming, producing and manipulating json.
+* [jsxn](https://github.com/talentdeficit/jsxn) - This is just jsx but with maps instead of proplists.
+* [jiffy](https://github.com/davisp/jiffy) - JSON NIFs for Erlang.
+* [jsonrec](https://github.com/EduardSergeev/jsonrec) - JSON encoder/decoder with the ability to map to records.
 
 ## REST and API
 *Libraries and web tools for developing REST-ful APIs.*
@@ -167,6 +175,9 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 *Libraries and tools for using network related stuff.*
 
 * [gen_tcp_server](https://github.com/rpt/gen_tcp_server) - A library that takes the concept of gen_server and introduces the same mechanics for operating a TCP server.
+* [ranch](https://github.com/ninenines/ranch) - Socket acceptor pool for TCP protocols
+* [barrel](https://github.com/benoitc/barrel) - barrel is a generic TCP acceptor pool with low latency in Erlang. 
+* [upnp](https://github.com/benoitc/upnp) - Erlang UPNP Module
 
 ## Algorithms and Datastructures
 *Libraries and implementations of algorithms and datastructures.*
@@ -180,6 +191,8 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 
 ## Miscellaneous
 *Useful libraries or tools that don't fit in the categories above.*
+
+* [erld](https://github.com/ShoreTel-Inc/erld) - erld is a small program designed to solve the problem of running Erlang programs as a UNIX daemon.
 
 # Resources
 Various resources, such as books, websites and articles, for improving your Erlang development skills and knowledge.
@@ -196,6 +209,7 @@ Various resources, such as books, websites and articles, for improving your Erla
 * [Learn You Some Erlang](http://learnyousomeerlang.com/) - Learn you some Erlang - for great good! A very thorough resource covering everything from beginning Erlang programming to large-scale development and deployment.
 * [Erlang in Anger](https://engineering.heroku.com/blogs/2014-09-17-erlang-in-anger) - Erlang in Anger Another great book from the author of Learn You Some Erlang. A collection of advice and know-how for problems that arise in large scale systems
 * [The Joy of Erlang; Or, How To Ride A Toruk](http://www.evanmiller.org/joy-of-erlang.html) - The Joy of Erlang; Or, How To Ride A Toruk A fast track introduction to Erlang that teaches the language by walking through a few example projects.
+* [Stuff Goes Bad - ERLANG IN ANGER](http://www.erlang-in-anger.com/) - This book intends to be a little guide about how to be the Erlang medic in a time of war.
 
 ## Web Reading
 *General web-development-related reading materials.*
