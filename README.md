@@ -178,6 +178,7 @@ A curated list of amazingly awesome Erlang libraries, resources and shiny thing 
 * [ranch](https://github.com/ninenines/ranch) - Socket acceptor pool for TCP protocols
 * [barrel](https://github.com/benoitc/barrel) - barrel is a generic TCP acceptor pool with low latency in Erlang. 
 * [upnp](https://github.com/benoitc/upnp) - Erlang UPNP Module
+* [gossiperl](https://github.com/gossiperl/gossiperl) - Language agnostic gossip middleware and message bus written in Erlang
 
 ## Algorithms and Datastructures
 *Libraries and implementations of algorithms and datastructures.*
